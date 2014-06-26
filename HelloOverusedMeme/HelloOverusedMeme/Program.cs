@@ -14,8 +14,9 @@ namespace HelloOverusedMeme
             Console.WriteLine("Hello Internet!");
             Console.WriteLine("Ramble down some notes here:");
             readThis = Console.ReadLine();
-            Console.WriteLine(readThis);
+            Console.WriteLine("\nYou Just Wrote: " + readThis);
             Console.ReadLine();
+            
         }
     }
 }
